@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --grey1: #E6e6e9;
+    --teal1: #00e5e8;
+    --red1: #b10f2e;
+    --blue1: #084887;
+    --orange1: #F19A3E;
 
-.container {
-background-color: red;
 }
+
+
 header {
-    Background-color: turquoise;
+    Background-color: var(--teal1);
     padding: 20px 35px;
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +21,7 @@ header {
 header h1 {
     color: black;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 60px;
 }
 header nav {
     margin: 10px 30px
@@ -34,7 +40,89 @@ header nav ul {
     font-size: 24px;
   }
 .info {
-    color: red;
+    background-color: var(--grey1);
     display: flex;
-    
+    margin: auto;
+
 }
+.sidestyle {
+    width: 30%;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+}
+.sidestyle img {
+    padding: 100px 0 0 0;
+    width: 100%;
+
+
+}
+.sidebox {
+    padding: 100px 0 100px 0;
+    margin: 50px 15px 50px 0;
+}
+.textboxes {
+    width: auto;
+    border-left: 2px solid black;
+}
+.text {
+    padding: 100px 0px 100px 0px;
+    margin: 50px 30px 50px 15px;  
+}
+.projects {
+    background-color:var(--blue1);
+    margin: 0 auto 0 auto;
+    padding: 20px 0 20px 0;
+}
+.projects h2 {
+    color: white;
+    font-size: 54px;
+    justify-content: center;
+    width: 100%;
+    padding: 15px auto 15px auto;
+    text-align: center;
+}
+
+.projectCards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    padding: 15px 15px 15px 15px;
+    background-color: var(--orange1);
+    justify-content: center;
+    align-items: flex-end;
+}
+.first {
+    width: 100%;
+    margin: 50px 55px 15px 55px;
+    align-items: center;
+    justify-content: center;
+
+}
+.first a {
+    width: 100%;
+    display: inline-block;
+}
+.project h3 {
+    font-size: 28px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin: 5px 0 20px 0;
+}
+.contact {
+    margin: auto;
+    display: flex;
+    background-color: var(--red1);
+    align-items: center;
+    justify-content: space-around;
+}
+.contact div {
+    color: white;
+    font-size: 22px;
+    padding: 15px 20px 15px 20px;
+}
+
