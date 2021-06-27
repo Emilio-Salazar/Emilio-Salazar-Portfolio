@@ -92,6 +92,7 @@ header nav ul {
 .project {
     padding: 15px 15px 15px 15px;
     background-color: var(--orange1);
+    margin: auto;
     justify-content: center;
     align-items: flex-end;
 }
